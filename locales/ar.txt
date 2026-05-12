@@ -4,27 +4,27 @@
 # Lines starting with # are comments
 # -------------------------------------
 
-# القائمة الرئيسية
+# Main Menu
 menu.button.start_game=ابدأ اللعبة
 menu.button.profile=الملف الشخصي
 menu.button.settings=الإعدادات
 menu.button.quit=خروج
 menu.intro.presented_by=مقدمة لكم من
 
-# إعدادات القائمة الرئيسية
+# Main Menu Settings
 menu.settings.title=الإعدادات
 menu.settings.language=اللغة
 
-# مدير واجهة المستخدم | شريط الأعلام
+# UI Manager| Flag Bar
 ui.button.diplomacy=الدبلوماسية
 ui.button.economy=الاقتصاد
 ui.button.unset=غير محدد
 ui.button.military=العسكرية
 
-# مدير واجهة المستخدم | اختيار الدولة
+# UI Manager| Country Select
 ui.button.play_as=العب كـ
 
-# مدير واجهة المستخدم | الإعدادات
+# UI Manager| Settings
 ui.window.settings=الإعدادات
 ui.settings.secondary_icons=استخدام أيقونات الوحدات الثانوية
 ui.settings.flag_zoom_out=إظهار العلم عند التصغير (الوحدات)
@@ -32,7 +32,7 @@ ui.settings.nation_overlay=تراكب الدول (N)
 ui.settings.always_flag=إظهار العلم دائماً على الوحدات (F)
 ui.settings.unit_size=حجم الوحدة
 
-# مدير واجهة المستخدم | علامة تبويب المدينة (مدينة واحدة)
+# UI Manager| City tab (single city)
 ui.label.pop=السكان: %d
 ui.label.buildings=المباني:
 ui.label.no_buildings=لا توجد مباني
@@ -41,14 +41,14 @@ ui.button.factory=مصنع
 ui.button.military_hq=مقر عسكري
 ui.button.depot=مستودع
 
-# مدير واجهة المستخدم | علامة تبويب المدن (مدن متعددة)
+# UI Manager| City Tab (multiple cities)
 ui.label.cities_selected=تم تحديد %zu من المدن
 ui.label.total_buildings=إجمالي المباني:
 ui.label.no_buildings_selected=لا توجد مباني في المدن المحددة
 ui.button.create_units=إنشاء وحدات
 ui.button.construct_buildings=تشييد مباني
 
-# مدير واجهة المستخدم | علامة تبويب المباني
+# UI Manager| Building Tab
 ui.building.industrial_factory=مصنع صناعي
 ui.building.production_lines=خطوط الإنتاج:
 ui.building.inventory=المخزون:
@@ -60,11 +60,11 @@ ui.building.supply_depot=مستودع إمدادات
 ui.building.stored_equipment=المعدات المخزنة:
 ui.label.empty=فارغ
 
-# مدير واجهة المستخدم | علامة تبويب إنشاء الوحدات
+# UI Manager| Unit Creation Tab
 ui.label.select_unit_type=حدد نوع الوحدة:
 ui.button.cancel=إلغاء
 
-# مدير واجهة المستخدم | تلميحات الوحدات
+# UI Manager| Unit Tooltip
 ui.tooltip.no_equipment=لا توجد معدات
 ui.tooltip.morale=المعنويات: %.1f
 ui.tooltip.retreat_behavior=سلوك الانسحاب: %s
@@ -73,17 +73,17 @@ ui.retreat.hold_position=الثبات في الموقع
 ui.retreat.fallback=تراجع تكتيكي
 ui.tooltip.forming=قيد التشكيل: %.0f%%
 
-# مدير واجهة المستخدم | وضع الغزو
+# UI Manager| Invasion Mode
 ui.invasion.mode_active=وضع الغزو نشط
 ui.invasion.draw_line=ارسم خط الهجوم للتخطيط
 ui.invasion.toggle_off=اضغط 'I' للإيقاف
 ui.button.execute=تنفيذ
 
-# مدير واجهة المستخدم | علامة تبويب تشييد المباني
+# UI Manager| Building Creation Tab
 ui.window.construct_building=تشييد مبنى
 ui.label.construct_building=تشييد مبنى:
 
-# مدير واجهة المستخدم | علامة تبويب الدبلوماسية
+# UI Manager| Diplomacy tab
 ui.diplomacy.your_nation=دولتك:
 ui.diplomacy.status_ally=حليف
 ui.diplomacy.status_war=في حالة حرب
@@ -94,7 +94,7 @@ ui.diplomacy.button_break_alliance=تفكيك التحالف
 ui.diplomacy.button_peace=إعلان السلام
 ui.diplomacy.info_tooltip=انقر بزر الماوس الأيمن على الخريطة للإغلاق
 
-# المحرر | الشريط العلوي
+# Editor| Top Bar
 editor.btn.provinces=المحافظات
 editor.btn.cities=المدن
 editor.btn.urban=المناطق الحضرية
@@ -109,7 +109,7 @@ editor.tooltip.render_settings=إعدادات العرض
 editor.label.modified=[مُعدل]
 editor.label.no_map=لم يتم تحميل أي خريطة — افتح متصفح الموارد لتحميل مجموعة الخرائط
 
-# المحرر | متصفح الموارد
+# Editor| Resource Browser
 editor.window.resource_browser=متصفح الموارد
 editor.tab.maps=الخرائط
 editor.tab.units=الوحدات
@@ -129,7 +129,7 @@ editor.label.unsaved=تغييرات غير محفوظة!
 editor.hint.or_new_name=أو اكتب اسماً جديداً...
 editor.btn.save=حفظ
 
-# المحرر | النوافذ المنبثقة للتكرار / الحفظ في
+# Editor| Duplicate / Save To Popups
 editor.popup.duplicate_title=تكرار المجموعة
 editor.popup.duplicate_format=تكرار مجموعة %s
 editor.popup.new_name_label=الاسم الجديد
@@ -141,7 +141,7 @@ editor.set_type.map=خريطة
 editor.set_type.unit=وحدة
 editor.set_type.flag=علم
 
-# المحرر | لوحة المحافظة 
+# Editor| Province Panel
 editor.window.province=خصائص المحافظة
 editor.label.province_id=معرف المحافظة: %d
 editor.input.province_name=اسم المحافظة
@@ -164,7 +164,7 @@ editor.btn.draw_new_province=رسم محافظة جديدة
 editor.label.drawing_verts=جاري الرسم... (%d رؤوس)
 editor.btn.delete_province=حذف هاذه المحافظة
 
-# المحرر | لوحة الدولة
+# Editor| Nation Panel
 editor.window.nation=خصائص الدولة
 editor.label.nation_hash=التجزئة: %u  المحافظات: %d
 editor.input.nation_name=اسم الدولة
@@ -181,7 +181,7 @@ editor.input.new_state_name=اسم الولاية الجديد##newstate
 editor.btn.create_state=إنشاء ولاية
 editor.btn.delete_state=حذف هذه الولاية
 
-# المحرر | لوحة المدينة
+# Editor| City Panel
 editor.window.city=محرر المدن
 editor.label.cities_count=المدن: %d
 editor.btn.placing_cities=جاري وضع المدن...
@@ -198,7 +198,7 @@ editor.label.world_coords=العالم: (%.4f, %.4f)
 editor.btn.delete_city=حذف المدينة
 editor.input.filter=تصفية
 
-# المحرر | لوحة الطريق
+# Editor| Road Panel
 editor.window.road=محرر الطرق
 editor.label.segments=الأجزاء: %d
 editor.btn.new_segment=جزء جديد
@@ -210,7 +210,7 @@ editor.input.point_pos=موقع النقطة
 editor.btn.delete_point=حذف النقطة
 editor.btn.delete_segment=حذف الجزء
 
-# المحرر | لوحة المباني
+# Editor| Building Panel
 editor.window.building=محرر المباني
 editor.label.buildings_click=المباني: %d  — انقر على الخريطة للوضع
 editor.label.building_id=مبنى #%d
@@ -234,7 +234,7 @@ editor.label.military_hq=المقر العسكري
 editor.label.no_additional_props=لا توجد خصائص إضافية
 editor.btn.delete_building=حذف المبنى
 
-# المحرر | لوحة الوحدات
+# Editor| Unit Panel
 editor.window.unit=محرر الوحدات
 editor.label.units_click=الوحدات: %d  — انقر على الخريطة للوضع
 editor.label.unit_id=وحدة #%d
@@ -245,7 +245,7 @@ editor.checkbox.fully_formed=مكتملة التشكيل (نشر بكامل ال
 editor.btn.generate_name=تسمية تلقائية
 editor.btn.delete_unit=حذف الوحدة
 
-# المحرر | شريط الحالة
+# Editor| Status Bar
 editor.mode.provinces=المحافظات
 editor.mode.cities=المدن
 editor.mode.urban_areas=المناطق الحضرية
@@ -258,7 +258,7 @@ editor.status.dropper_active= | القطارة نشطة
 editor.status.add_vertex= | إضافة رأس
 editor.status.no_map=لم يتم تحميل خريطة
 
-# المحرر | تراكب المساعدة
+# Editor| Help Overlay
 editor.window.controls=التحكم
 editor.help.navigation=التنقل
 editor.help.wasd=WASD / سحب بالزر الأيمن: تحريك
@@ -271,19 +271,19 @@ editor.help.escape=هروب: إلغاء التحديد
 editor.help.ctrl_s=Ctrl+S: حفظ الكل
 editor.help.pick=زر الالتقاط: أداة القطارة
 
-# المحرر | تراكب القطارة
+# Editor| Dropper Overlay
 editor.dropper.click_province=انقر على المحافظة لاختيار الولاية
 
-# المحرر | زر القطارة
+# Editor| Dropper Button
 editor.btn.picking=جاري الالتقاط...
 editor.btn.pick=التقاط
 editor.tooltip.dropper=انقر على محافظة في الخريطة لاختيار الولاية المالكة لها
 
-# المحرر | عوامل تصفية الدول/المحافظات
+# Editor| Nation/Province Combo Filters
 editor.hint.search_nations=البحث عن دول...
 editor.hint.search_provinces=البحث عن محافظات...
 
-# ---- المحرر — لوحة إنشاء المحافظات ----
+# ---- Editor — Province Creation Panel ----
 editor.window.draw_province=رسم محافظة
 editor.label.click_map_vertices=انقر على الخريطة لوضع الرؤوس
 editor.label.vertices_placed=الرؤوس الموضوعة: %d
@@ -294,7 +294,7 @@ editor.btn.finish_province=إنهاء المحافظة
 editor.label.or_click_first=أو انقر بالقرب من الرأس الأول (النقطة الخضراء) لإغلاق الشكل.
 editor.label.min_3_verts=ضع 3 رؤوس على الأقل للإنهاء.
 
-# المحرر | لوحة تراكب الصور المرجعية
+# Editor| Reference Overlay Panel
 editor.window.ref_image=خصائص الصورة المرجعية
 editor.btn.delete=حذف
 فتح=editor.btn.unlock
@@ -307,7 +307,7 @@ editor.input.size=الحجم (العرض/الارتفاع)
 editor.input.scale=المقياس
 editor.btn.fit_to_map=ملاءمة مع الخريطة
 
-# المحرر | إعدادات العرض 
+# Editor| Render Settings 
 editor.window.render_settings=إعدادات العرض
 editor.label.tile_textures=خامات المربعات
 editor.checkbox.show_tile_textures=إظهار خامات المربعات
@@ -325,7 +325,7 @@ editor.input.buildings_opacity=المباني
 editor.input.units_opacity=الوحدات
 editor.btn.reset_all=إعادة ضبط الكل
 
-# المحرر | لوحة المناطق الحضرية
+# Editor| Urban Area Panel
 editor.window.urban=محرر المناطق الحضرية
 editor.label.urban_count=المناطق الحضرية: %d
 editor.btn.draw_urban=رسم منطقة حضرية
@@ -337,13 +337,13 @@ editor.input.urban_province=المحافظة
 editor.input.urban_pop=السكان
 editor.input.filter_urban=تصفية##urban
 
-# المحرر | لوحة إنشاء المناطق الحضرية
+# Editor| Urban Area Creation Panel
 editor.window.draw_urban=رسم منطقة حضرية
 editor.input.create_urban_name=الاسم##crurban
 editor.input.create_urban_state=الولاية##crurban
 editor.btn.finish_urban=إنهاء المنطقة الحضرية
 
-# المحرر | علامة تبويب محرر الدول
+# Editor| Nation Editor Tab
 editor.window.nation_editor=محرر الدول
 editor.label.nations_count=الدول: %d
 editor.input.filter_nations=تصفية##nations
@@ -351,7 +351,7 @@ editor.label.selected_nation=تم تحديد: %s
 editor.input.nation_name_ne=اسم الدولة##ne
 editor.label.provinces_ne=المحافظات##ne
 
-# المحرر | محرر التعريفات 
+# Editor| Definition Editor 
 editor.window.definition_editor=محرر التعريفات
 editor.btn.equipment_tab=المعدات
 editor.btn.units_tab=الوحدات
