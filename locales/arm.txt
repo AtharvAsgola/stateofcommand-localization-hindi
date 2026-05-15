@@ -1,0 +1,360 @@
+# -------------------------------------
+# State of Command: Armenian locale
+# Format: key=value
+# Lines starting with # are comments
+# -------------------------------------
+
+# Main Menu
+menu.button.start_game=Սկսել խաղը
+menu.button.profile=Պրոֆիլ
+menu.button.settings=Կարգավորումներ
+menu.button.quit=Դուրս գալ
+menu.intro.presented_by=Ձեզ է ներկայացնում
+
+# Main Menu Settings
+menu.settings.title=Կարգավորումներ
+menu.settings.language=Լեզու
+
+# UI Manager| Flag Bar
+ui.button.diplomacy=Դիվանագիտություն
+ui.button.economy=Տնտեսություն
+ui.button.unset=Ընտրված չէ
+ui.button.military=Ռազմական
+
+# UI Manager| Country Select
+ui.button.play_as=Խաղալ որպես
+
+# UI Manager| Settings
+ui.window.settings=Settings
+ui.settings.secondary_icons=Օգտագործել երկրորդական միավորների պատկերակներ
+ui.settings.flag_zoom_out=Ցույց տալ դրոշը հեռացնելու ժամանակ (Units)
+ui.settings.nation_overlay=Պետությունների շերտ (N)
+ui.settings.always_flag=Միշտ ցույց տալ դրոշը զորքերի վրա (F)
+ui.settings.unit_size=Զորքի չափ
+
+# UI Manager| City tab (single city)
+ui.label.pop=Բնակչություն: %d
+ui.label.buildings=Շինություններ:
+ui.label.no_buildings=Շինություն չկա
+ui.label.construct=Կառուցել:
+ui.button.factory=Գործարան
+ui.button.military_hq=Ռազմական շտաբ
+ui.button.depot=Պահեստ
+
+# UI Manager| City Tab (multiple cities)
+ui.label.cities_selected=%zu Ընտրված քաղաք
+ui.label.total_buildings=Ընդհանուր շինություններ:
+ui.label.no_buildings_selected=Ընտրված քաղաքներում շինություն չկա
+ui.button.create_units=Ստեղծել զորքեր
+ui.button.construct_buildings=Կառուցել շինություններ
+
+# UI Manager| Building Tab
+ui.building.industrial_factory=Արդյունաբերական գործարան
+ui.building.production_lines=Արտադրական գծեր:
+ui.building.inventory=Պահեստ:
+ui.building.no_items=Դատարկ է
+ui.button.add_production_line=Ավելացնել արտադրական գիծ
+ui.building.military_hq_title=Ռազմական շտաբ
+ui.button.spawn_unit=Ստեղծել զորք
+ui.building.supply_depot=Մատակարարման պահեստ
+ui.building.stored_equipment=Պահեստավորված սարքավորում:
+ui.label.empty=Դատարկ
+
+# UI Manager| Unit Creation Tab
+ui.label.select_unit_type=Ընտրեք զորքի տեսակը:
+ui.button.cancel=Չեղարկել
+
+# UI Manager| Unit Tooltip
+ui.tooltip.no_equipment=Սարքավորում չկա
+ui.tooltip.morale=բարոյական վիճակ: %.1f
+ui.tooltip.retreat_behavior=նահանջի վարքագիծը: %s
+ui.retreat.normal=Սովորական
+ui.retreat.hold_position=Պահել դիրքը
+ui.retreat.fallback=Նահանջել
+ui.tooltip.forming=ձևավորում Է: %.0f%%
+
+# UI Manager| Invasion Mode
+ui.invasion.mode_active=ՆԵՐԽՈՒԺՄԱՆ ՌԵԺԻՄԸ ՄԻԱՑՎԱԾ Է
+ui.invasion.draw_line=Գծեք հարձակման գիծը
+ui.invasion.toggle_off=Սեղմեք 'I' անջատելու համար
+ui.button.execute=ԿԱՏԱՐԵԼ
+
+# UI Manager| Building Creation Tab
+ui.window.construct_building=Կառուցել շինություն
+ui.label.construct_building=Կառուցել շինություն:
+
+# UI Manager| Diplomacy tab
+ui.diplomacy.your_nation=Ձեր պետությունը:
+ui.diplomacy.status_ally=ԴԱՇՆԱԿԻՑ
+ui.diplomacy.status_war=ՊԱՏԵՐԱԶՄ
+ui.diplomacy.status_neutral=Չեզոք
+ui.diplomacy.button_ally=Կազմել դաշինք
+ui.diplomacy.button_war=Հայտարարել պատերազմ
+ui.diplomacy.button_break_alliance=Խզել դաշինքը
+ui.diplomacy.button_peace=Հայտարարել խաղաղություն
+ui.diplomacy.info_tooltip=Փակելու համար աջ սեղմեք քարտեզի վրա
+
+# Editor| Top Bar
+editor.btn.provinces=Նահանգներ
+editor.btn.cities=Քաղաքներ
+editor.btn.urban=Քաղաքային տարածքներ
+editor.btn.roads=Ճանապարհներ
+editor.btn.buildings=Շինություններ
+editor.btn.units=Զորքեր
+editor.btn.nations=Պետություններ
+editor.btn.draw_province=Նկարել նահանգ
+editor.btn.definitions=Սահմանումներ
+editor.btn.ref=+ Ref
+editor.tooltip.render_settings=Պատկերման կարգավորումներ
+editor.label.modified=[ՓՈՓՈԽՎԱԾ]
+editor.label.no_map=Քարտեզ բեռնված չէ — բացեք Resource Browser-ը քարտեզ բեռնելու համար
+
+# Editor| Resource Browser
+editor.window.resource_browser=Ռեսուրսների դիտարկիչ
+editor.tab.maps=Քարտեզներ
+editor.tab.units=Զորքեր
+editor.tab.flags=Դրոշներ
+editor.btn.refresh=Թարմացնել
+editor.btn.load_map=Բեռնել քարտեզ
+editor.btn.save_map=Պահպանել քարտեզը
+editor.btn.load_unit_set=Բեռնել զորքերի հավաքածուն
+editor.btn.save_flags=Պահպանել դրոշները
+editor.btn.load_flag_set=բեռնման դրոշի հավաքածու
+editor.btn.duplicate=Կրկնօրինակել
+editor.btn.save_to=Պահպանել որպես...
+editor.hint.new_set_name=Նոր հավաքածուի անուն...
+editor.btn.create=Ստեղծել
+editor.btn.save_all=Պահպանել բոլորը (Ctrl+S)
+editor.label.unsaved=Չպահպանված փոփոխություններ!
+editor.hint.or_new_name=Կամ մուտքագրեք նոր անուն...
+editor.btn.save=ահպանել
+
+# Editor| Duplicate / Save To Popups
+editor.popup.duplicate_title=Կրկնօրինակել հավաքածուն
+editor.popup.duplicate_format=Կրկնօրինակել %s Set
+editor.popup.new_name_label=Նոր անուն
+editor.btn.duplicate_confirm=Կրկնօրինակել
+editor.btn.cancel=Չեղարկել
+editor.popup.save_to_title=Պահպանել հավաքածուում
+editor.popup.save_to_format=Պահպանել ընթացիկ տվյալները %s set:
+editor.set_type.map=Քարտեզ
+editor.set_type.unit=Զորք
+editor.set_type.flag=Դրոշ
+
+# Editor| Province Panel
+editor.window.province=Նահանգի հատկություններ
+editor.label.province_id=Նահանգի ID: %d
+editor.input.province_name=Նահանգի անուն
+editor.input.owning_nation=Տիրապետող պետություն
+editor.input.assign_nation=Կցել պետությանը
+editor.label.vertices=Կետեր: %d  (boundary: %d)
+editor.label.vertex_info=Կետ #%d  (%.6f, %.6f)
+editor.input.vertex_pos=Դիրք
+editor.label.belongs_to=Պատկանում է նահանգին: %d (%s)
+editor.input.reassign_id=Վերակցել նահանգի ID-ին
+editor.btn.reassign=Վերակցել կետը
+editor.btn.remove_vertex=Հեռացնել կետը
+editor.label.interior_vertex=(ներքին կետ)
+editor.label.min_verts=(առնվազն 3 կետ)
+editor.label.province_management=Նահանգի կառավարում
+editor.btn.stop_adding=Դադարեցնել ավելացումը
+editor.btn.add_vertex=Ավելացնել կետ
+editor.label.click_boundary=Սեղմեք սահմանին՝ տեղադրելու համար
+editor.btn.draw_new_province=Ստեղծել նոր նահանգ
+editor.label.drawing_verts=Գծվում է... (%d verts)
+editor.btn.delete_province=Ջնջել այս նահանգը
+
+# Editor| Nation Panel
+editor.window.nation=Պետության հատկություններ
+editor.label.nation_hash=Hash: %u  Նահանգներ: %d
+editor.input.nation_name=Պետության անուն
+editor.label.no_flag=(դրոշ չկա)
+editor.label.flag_set=Դրոշների հավաքածու: %s
+editor.btn.change_flag=Փոխել դրոշը...
+editor.label.allies=Դաշնակիցներ
+editor.btn.add_ally=Ավելացնել դաշնակից
+editor.label.enemies=Թշնամիներ
+editor.btn.add_enemy=Ավելացնել թշնամի
+editor.label.province_list_header=Նահանգների ցանկ
+editor.label.state_management=Պետության կառավարում
+editor.input.new_state_name=Նոր պետության անուն##newstate
+editor.btn.create_state=Ստեղծել պետություն
+editor.btn.delete_state=Ջնջել այս պետությունը
+
+# Editor| City Panel
+editor.window.city=Քաղաքի խմբագիր
+editor.label.cities_count=Քաղաքներ: %d
+editor.btn.placing_cities=Տեղադրվում են քաղաքներ...
+editor.btn.place_city=Տեղադրել քաղաք
+editor.label.click_map_place=Սեղմեք քարտեզի վրա տեղադրելու համար
+editor.label.city_id=Քաղաք #%d
+editor.input.city_name=Անուն
+editor.input.city_state=Պետություն
+editor.input.city_province=Նահանգ
+editor.input.population=Բնակչություն
+editor.input.lon_lat=Երկայնություն / Լայնություն
+editor.checkbox.urban_area=Քաղաքային տարածք
+editor.label.world_coords=Աշխարհի կոորդինատներ: (%.4f, %.4f)
+editor.btn.delete_city=Ջնջել քաղաքը
+editor.input.filter=Ֆիլտր
+
+# Editor| Road Panel
+editor.window.road=Ճանապարհների խմբագիր
+editor.label.segments=Հատվածներ: %d
+editor.btn.new_segment=Նոր հատված
+editor.label.add_mode=ԱՎԵԼԱՑՄԱՆ ՌԵԺԻՄ
+editor.btn.stop=Կանգնեցնել
+editor.btn.add_points=Ավելացնել կետեր
+editor.label.segment_info=Հատված #%d (%d pts)
+editor.input.point_pos=Կետի դիրք
+editor.btn.delete_point=Ջնջել կետը
+editor.btn.delete_segment=Ջնջել հատվածը
+
+# Editor| Building Panel
+editor.window.building=Շինությունների խմբագիր
+editor.label.buildings_click=Շինություններ: %d  — սեղմեք քարտեզի վրա տեղադրելու համար
+editor.label.building_id=Շինություն #%d
+editor.input.building_type=Տեսակ
+editor.input.owner_state=Տիրապետող պետություն
+editor.input.city_assign=Քաղաք
+editor.input.building_pos=Դիրք
+editor.label.drag_map=Տեղափոխելու համար քաշեք քարտեզի վրա
+editor.label.factory_props=Գործարանի հատկություններ
+editor.input.throughput=Արտադրողականություն
+editor.input.shipping_threshold=Առաքման շեմ
+editor.label.production_lines_count=Արտադրական գծեր: %d
+editor.input.equipment=Սարքավորում
+editor.input.capacity=Տարողություն
+editor.btn.remove=Հեռացնել
+editor.btn.add_production_line=Ավելացնել արտադրական գիծ
+editor.label.depot_props=Պահեստի հատկություններ
+editor.input.max_equipment=Սարքավորումների առավելագույն տարողություն
+editor.input.max_manpower=Մարդուժի առավելագույն տարողություն
+editor.label.military_hq=Ռազմական շտաբ
+editor.label.no_additional_props=Լրացուցիչ հատկություններ չկան
+editor.btn.delete_building=Ջնջել շինությունը
+
+# Editor| Unit Panel
+editor.window.unit=Զորքերի խմբագիր
+editor.label.units_click=Զորքեր: %d  — սեղմեք քարտեզի վրա տեղադրելու համար
+editor.label.unit_id=Զորք #%d
+editor.input.given_name=Անուն
+editor.label.given_name_hint=Զորքի անունը (պարտադիր չէ, կստեղծվի ավտոմատ)
+editor.input.definition=Սահմանում
+editor.checkbox.fully_formed=Լիովին կազմավորված (ստեղծել ամբողջական ուժով)
+editor.btn.generate_name=Ավտոմատ անուն
+editor.btn.delete_unit=Ջնջել զորքը
+
+# Editor| Status Bar
+editor.mode.provinces=Նահանգներ
+editor.mode.cities=Քաղաքներ
+editor.mode.urban_areas=Քաղաքային տարածքներ
+editor.mode.roads=Ճանապարհներ
+editor.mode.buildings=Շինություններ
+editor.mode.units=Շինություններ
+editor.mode.nations=Զորքեր
+editor.status.modified= [ՓՈՓՈԽՎԱԾ]
+editor.status.dropper_active= | ԸՆՏՐՄԱՆ ԳՈՐԾԻՔԸ ՄԻԱՑՎԱԾ Է
+editor.status.add_vertex= | ԱՎԵԼԱՑՆԵԼ ԿԵՏ
+editor.status.no_map=Քարտեզ բեռնված չէ
+
+# Editor| Help Overlay
+editor.window.controls=Կառավարում
+editor.help.navigation=Տեղաշարժ
+editor.help.wasd=WASD / Right-drag: Տեղաշարժ
+editor.help.scroll=Scroll: Մեծացնել / Փոքրացնել
+editor.help.selection=Ընտրություն
+editor.help.click=Click: Ընտրել / Տեղադրել
+editor.help.shift_click=Shift+Click: Պետություն (նահանգի ռեժիմ)
+editor.help.drag=Drag: Տեղափոխել ընտրվածը
+editor.help.escape=Escape: Չեղարկել ընտրությունը
+editor.help.ctrl_s=Ctrl+S: Պահպանել բոլորը
+editor.help.pick=Pick button: Ընտրիչ գործիք
+
+# Editor| Dropper Overlay
+editor.dropper.click_province=Սեղմեք նահանգի վրա՝ պետությունը ընտրելու համար
+
+# Editor| Dropper Button
+editor.btn.picking=Ընտրվում է...
+editor.btn.pick=Ընտրել
+editor.tooltip.dropper=Սեղմեք քարտեզի վրա գտնվող նահանգի վրա՝ դրա տիրապետող պետությունն ընտրելու համար
+
+# Editor| Nation/Province Combo Filters
+editor.hint.search_nations=Փնտրել պետություններ...
+editor.hint.search_provinces=Փնտրել նահանգներ...
+
+# ---- Editor — Province Creation Panel ----
+editor.window.draw_province=Ստեղծել նահանգ
+editor.label.click_map_vertices=Սեղմեք քարտեզի վրա՝ կետեր տեղադրելու համար
+editor.label.vertices_placed=Տեղադրված կետեր: %d
+editor.input.create_prov_name=Անուն##crprov
+editor.input.create_prov_state=Պետություն##crprov
+editor.btn.undo_last=Հետարկել վերջին կետը
+editor.btn.finish_province=Ավարտել նահանգը
+editor.label.or_click_first=Կամ սեղմեք առաջին կետի մոտ (կանաչ կետ) պատկերը փակելու համար.
+editor.label.min_3_verts=Ավարտելու համար տեղադրեք առնվազն 3 կետ.
+
+# Editor| Reference Overlay Panel
+editor.window.ref_image=Հղման պատկերի հատկություններ
+editor.btn.delete=Ջնջել
+editor.btn.unlock=Ապակողպել
+editor.btn.lock=Կողպել
+editor.btn.hide=Թաքցնել
+editor.btn.show=տալ
+editor.input.opacity=Թափանցիկություն
+editor.input.position=Դիրք
+editor.input.size=Չափ (W/H)
+editor.input.scale=Մասշտաբ
+editor.btn.fit_to_map=Հարմարեցնել քարտեզին
+
+# Editor| Render Settings 
+editor.window.render_settings=Պատկերման կարգավորումներ
+editor.label.tile_textures=Սալիկների տեքստուրաներ
+editor.checkbox.show_tile_textures=Ցույց տալ սալիկների տեքստուրաները
+editor.input.tint_strength=Գունավորման ուժգնություն
+editor.label.nation_rendering=Պետությունների պատկերում
+editor.checkbox.render_by_nation=Պատկերել ըստ պետության գույնի
+editor.checkbox.show_nation_flags=Ցույց տալ պետությունների դրոշները
+editor.tooltip.nation_flags=Ցույց տալ պետության դրոշը նրա տարածքի կենտրոնում
+editor.label.layer_opacities=Շերտերի թափանցիկություն
+editor.input.provinces_opacity=Նահանգներ
+editor.input.roads_opacity=Ճանապարհներ
+editor.input.city_dots_opacity=Քաղաքների նշաններ
+editor.input.urban_areas_opacity=Քաղաքային տարածքներ
+editor.input.buildings_opacity=Շինություններ
+editor.input.units_opacity=Զորքեր
+editor.btn.reset_all=Վերականգնել բոլորը
+
+# Editor| Urban Area Panel
+editor.window.urban=Քաղաքային տարածքների խմբագիր
+editor.label.urban_count=Քաղաքային տարածքներ: %d
+editor.btn.draw_urban=Նկարել քաղաքային տարածք
+editor.label.drawing_urban=Գծվում է... (%d verts)
+editor.label.urban_id=Քաղաքային տարածք #%d  (%d boundary verts)
+editor.input.urban_name=Անուն
+editor.input.urban_state=Տիրապետող պետություն
+editor.input.urban_province=Նահանգ
+editor.input.urban_pop=Բնակչություն
+editor.input.filter_urban=Ֆիլտր##urban
+
+# Editor| Urban Area Creation Panel
+editor.window.draw_urban=Ստեղծել քաղաքային տարածք
+editor.input.create_urban_name=Անուն##crurban
+editor.input.create_urban_state=Պետություն##crurban
+editor.btn.finish_urban=Ավարտել քաղաքային տարածքը
+
+# Editor| Nation Editor Tab
+editor.window.nation_editor=Պետությունների խմբագիր
+editor.label.nations_count=Պետություններ: %d
+editor.input.filter_nations=Ֆիլտր##nations
+editor.label.selected_nation=Ընտրված է: %s
+editor.input.nation_name_ne=Պետության անուն##ne
+editor.label.provinces_ne=Նահանգներ##ne
+
+# Editor| Definition Editor 
+editor.window.definition_editor=Սահմանումների խմբագիր
+editor.btn.equipment_tab=Սարքավորում
+editor.btn.units_tab=Զորքեր
+editor.btn.save_all_def=Պահպանել բոլորը
+editor.btn.close=Փակել
+editor.label.background_icons=Ֆոնային նշաններ
