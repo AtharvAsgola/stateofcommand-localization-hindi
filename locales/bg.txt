@@ -33,7 +33,7 @@ ui.settings.always_flag=Винаги показвай флаг на единиц
 ui.settings.unit_size=Размер на единиците
 
 # UI Manager| City tab (single city)
-ui.label.pop=Нас.: %d
+ui.label.pop=Население: %d
 ui.label.buildings=Сгради:
 ui.label.no_buildings=Няма сгради
 ui.label.construct=Строеж:
